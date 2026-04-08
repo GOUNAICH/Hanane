@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boukind Hanane — Enseignante Primaire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Hanane<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">À Propos</a></li>
+        <li><a href="#education">Formation</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Me contacter</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mm-link">À Propos</a></li>
+      <li><a href="#education" class="mm-link">Formation</a></li>
+      <li><a href="#experience" class="mm-link">Expérience</a></li>
+      <li><a href="#skills" class="mm-link">Compétences</a></li>
+      <li><a href="#contact" class="mm-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shape shape-1"></div>
+    <div class="hero-bg-shape shape-2"></div>
+    <div class="hero-bg-shape shape-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-text fade-up">
+        <p class="hero-eyebrow">Bonjour, je suis</p>
+        <h1 class="hero-name">Boukind<br /><em>Hanane</em></h1>
+        <p class="hero-title">Enseignante Primaire</p>
+        <p class="hero-desc">
+          Passionnée par l'éducation et dédiée à guider chaque élève vers son plein potentiel,
+          dans un environnement bienveillant et stimulant.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Me contacter</a>
+          <a href="#about" class="btn btn-ghost">Découvrir
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span class="meta-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Agadir, Maroc
+          </span>
+          <span class="meta-divider"></span>
+          <span class="meta-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+            </svg>
+            Licence Professionnelle 2025
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-image fade-up delay-2">
+        <div class="img-frame">
+          <div class="img-placeholder">
+            <img src="hanane.png" alt="Boukind Hanane — Enseignante Primaire" class="real-photo" />
+          </div>
+          <div class="img-deco-ring"></div>
+          <div class="img-deco-dot dot-1"></div>
+          <div class="img-deco-dot dot-2"></div>
+        </div>
+        <div class="floating-badge badge-1">
+          <span class="badge-num">3+</span>
+          <span class="badge-text">Ans<br />d'expérience</span>
+        </div>
+        <div class="floating-badge badge-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+            class="badge-svg-icon">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+          <span class="badge-text">Enseignement<br />Primaire</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-label fade-up">À Propos</div>
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <h2 class="section-title">Une enseignante <em>passionnée</em> au service de l'éducation</h2>
+          <p>Jeune diplômée en enseignement primaire, sérieuse et motivée, avec un excellent sens de la communication et
+            une forte capacité d'adaptation. Passionnée par l'éducation, j'accompagne les élèves vers la réussite dans
+            un environnement positif et stimulant.</p>
+          <p>Ma pédagogie repose sur l'écoute, la bienveillance et l'encouragement de chaque élève à développer son
+            potentiel unique. Je crois profondément que chaque enfant mérite un accompagnement personnalisé et attentif.
+          </p>
+          <div class="about-contact-row">
+            <a href="mailto:boukindhanane78@gmail.com" class="contact-pill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <polyline points="2,4 12,13 22,4" />
+              </svg>
+              boukindhanane78@gmail.com
+            </a>
+            <a href="tel:+212681198844" class="contact-pill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.76a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              +212 6 81 19 88 44
+            </a>
+          </div>
+        </div>
+        <div class="about-stats fade-up delay-1">
+          <div class="stat-card">
+            <span class="stat-num">4</span>
+            <span class="stat-label">Langues parlées</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Ans de soutien scolaire</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2025</span>
+            <span class="stat-label">Diplômée ESEF Agadir</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Passion pour l'éducation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section edu-section" id="education">
+    <div class="container">
+      <div class="section-label fade-up">Formation</div>
+      <h2 class="section-title centered fade-up">Parcours <em>Académique</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item fade-up">
+          <div class="tl-left">
+            <div class="tl-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+            </div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-date">2024 – 2025</span>
+            <h3>Licence Professionnelle en Enseignement Primaire</h3>
+            <p class="tl-place">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              ESEF — Agadir, Maroc
+            </p>
+            <p class="tl-desc">Formation complète en didactique, pédagogie et gestion de classe. Spécialisation dans
+              l'accompagnement des élèves du primaire.</p>
+            <span class="tl-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Diplôme obtenu
+            </span>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-1">
+          <div class="tl-left">
+            <div class="tl-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-date">2021 – 2022</span>
+            <h3>Baccalauréat Sciences Physiques</h3>
+            <p class="tl-place">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Maroc
+            </p>
+            <p class="tl-desc">Formation scientifique axée sur les sciences physiques, développant la rigueur
+              intellectuelle et la pensée analytique.</p>
+            <span class="tl-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Mention obtenue
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section exp-section" id="experience">
+    <div class="container">
+      <div class="section-label fade-up">Expérience</div>
+      <h2 class="section-title centered fade-up">Expériences <em>Professionnelles</em></h2>
+      <div class="exp-grid">
+
+        <div class="exp-card fade-up">
+          <div class="exp-top">
+            <div class="exp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <span class="exp-date">2024 – 2026</span>
+          </div>
+          <h3>Professeure de Soutien Scolaire</h3>
+          <p class="exp-domain">Primaire — Cours particuliers</p>
+          <ul class="exp-list">
+            <li>Aide aux devoirs et explication des leçons</li>
+            <li>Adaptation au niveau de chaque élève</li>
+            <li>Suivi régulier des progrès individuels</li>
+            <li>Renforcement de la confiance en soi</li>
+          </ul>
+          <div class="exp-tag-row">
+            <span class="exp-tag">Pédagogie</span>
+            <span class="exp-tag">Communication</span>
+          </div>
+        </div>
+
+        <div class="exp-card fade-up delay-1">
+          <div class="exp-top">
+            <div class="exp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              </svg>
+            </div>
+            <span class="exp-date">2025</span>
+          </div>
+          <h3>Bibliothèque</h3>
+          <p class="exp-domain">Gestion documentaire</p>
+          <ul class="exp-list">
+            <li>Organisation et classement des ouvrages</li>
+            <li>Accueil et orientation du public</li>
+            <li>Gestion administrative et inventaire</li>
+          </ul>
+          <div class="exp-tag-row">
+            <span class="exp-tag">Organisation</span>
+            <span class="exp-tag">Accueil</span>
+          </div>
+        </div>
+
+        <div class="exp-card fade-up delay-2">
+          <div class="exp-top">
+            <div class="exp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <span class="exp-date">2024</span>
+          </div>
+          <h3>Exper Pharma</h3>
+          <p class="exp-domain">Secteur pharmaceutique</p>
+          <ul class="exp-list">
+            <li>Participation aux tâches quotidiennes</li>
+            <li>Découverte du fonctionnement d'entreprise</li>
+            <li>Sens des responsabilités et rigueur</li>
+          </ul>
+          <div class="exp-tag-row">
+            <span class="exp-tag">Rigueur</span>
+            <span class="exp-tag">Professionnel</span>
+          </div>
+        </div>
+
+        <div class="exp-card fade-up delay-3">
+          <div class="exp-top">
+            <div class="exp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" />
+                <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                <line x1="12" y1="12" x2="12" y2="16" />
+                <line x1="10" y1="14" x2="14" y2="14" />
+              </svg>
+            </div>
+            <span class="exp-date">2025</span>
+          </div>
+          <h3>Ibex</h3>
+          <p class="exp-domain">Gestion de missions</p>
+          <ul class="exp-list">
+            <li>Gestion des missions et tâches assignées</li>
+            <li>Respect des délais et des procédures</li>
+            <li>Travail en équipe et coordination</li>
+          </ul>
+          <div class="exp-tag-row">
+            <span class="exp-tag">Équipe</span>
+            <span class="exp-tag">Délais</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-label fade-up">Compétences</div>
+      <h2 class="section-title centered fade-up">Mes <em>Compétences</em></h2>
+
+      <div class="skills-grid">
+        <div class="skill-item fade-up">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </span>
+            <span class="skill-name">Communication</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="90"></div>
+          </div>
+        </div>
+        <div class="skill-item fade-up delay-1">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="6" />
+                <circle cx="12" cy="12" r="2" />
+              </svg>
+            </span>
+            <span class="skill-name">Pédagogie</span>
+            <span class="skill-pct">95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="95"></div>
+          </div>
+        </div>
+        <div class="skill-item fade-up delay-2">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="6" height="6" rx="1" />
+                <path d="M13 6h8M13 12h8M13 18h8" />
+                <rect x="3" y="13" width="6" height="6" rx="1" />
+              </svg>
+            </span>
+            <span class="skill-name">Organisation</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="85"></div>
+          </div>
+        </div>
+        <div class="skill-item fade-up delay-3">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </span>
+            <span class="skill-name">Travail en équipe</span>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="88"></div>
+          </div>
+        </div>
+        <div class="skill-item fade-up">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </span>
+            <span class="skill-name">Word / PowerPoint</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="80"></div>
+          </div>
+        </div>
+        <div class="skill-item fade-up delay-1">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 4 23 10 17 10" />
+                <polyline points="1 20 1 14 7 14" />
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />
+              </svg>
+            </span>
+            <span class="skill-name">Adaptabilité</span>
+            <span class="skill-pct">92%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" data-width="92"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="lang-block fade-up">
+        <h3 class="lang-title">Langues</h3>
+        <div class="lang-grid">
+
+          <!-- Arabe — Drapeau Maroc -->
+          <div class="lang-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="36" height="24" role="img"
+                aria-label="Drapeau Maroc">
+                <rect width="36" height="24" fill="#c1272d" />
+                <!-- Étoile verte à 5 branches -->
+                <polygon
+                  points="18,6 19.47,10.91 24.61,10.91 20.57,13.82 22.04,18.73 18,15.82 13.96,18.73 15.43,13.82 11.39,10.91 16.53,10.91"
+                  fill="none" stroke="#006233" stroke-width="0.8" />
+              </svg>
+            <span class="lang-name">Arabe</span>
+            <div class="lang-dots"><span class="dot filled"></span><span class="dot filled"></span><span
+                class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div>
+            <span class="lang-level">Courant</span>
+          </div>
+
+          <!-- Français — Drapeau France -->
+          <div class="lang-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="36" height="24" role="img"
+                aria-label="Drapeau France">
+                <rect width="12" height="24" fill="#002395" />
+                <rect x="12" width="12" height="24" fill="#ffffff" />
+                <rect x="24" width="12" height="24" fill="#ED2939" />
+              </svg>
+            <span class="lang-name">Français</span>
+            <div class="lang-dots"><span class="dot filled"></span><span class="dot filled"></span><span
+                class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></div>
+            <span class="lang-level">Bon niveau</span>
+          </div>
+
+          <!-- Anglais — Drapeau Royaume-Uni -->
+          <div class="lang-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="36" height="24" role="img"
+                aria-label="Drapeau Royaume-Uni">
+                <rect width="36" height="24" fill="#012169" />
+                <!-- Diagonales blanches -->
+                <line x1="0" y1="0" x2="36" y2="24" stroke="#fff" stroke-width="4.8" />
+                <line x1="36" y1="0" x2="0" y2="24" stroke="#fff" stroke-width="4.8" />
+                <!-- Diagonales rouges -->
+                <line x1="0" y1="0" x2="36" y2="24" stroke="#C8102E" stroke-width="2.4" />
+                <line x1="36" y1="0" x2="0" y2="24" stroke="#C8102E" stroke-width="2.4" />
+                <!-- Croix blanche -->
+                <rect x="14.4" width="7.2" height="24" fill="#fff" />
+                <rect y="9.6" width="36" height="4.8" fill="#fff" />
+                <!-- Croix rouge -->
+                <rect x="15.6" width="4.8" height="24" fill="#C8102E" />
+                <rect y="10.8" width="36" height="2.4" fill="#C8102E" />
+              </svg>
+            <span class="lang-name">Anglais</span>
+            <div class="lang-dots"><span class="dot filled"></span><span class="dot filled"></span><span
+                class="dot filled"></span><span class="dot"></span><span class="dot"></span></div>
+            <span class="lang-level">Intermédiaire</span>
+          </div>
+
+          <!-- Tamazight — Symbole Amazigh ⵣ -->
+          <div class="lang-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="36" height="24" role="img"
+                aria-label="Symbole Amazigh">
+                <!-- Fond aux couleurs du mouvement amazigh -->
+                <rect width="12" height="24" fill="#3dae2b" />
+                <rect x="12" width="12" height="24" fill="#ffd700" />
+                <rect x="24" width="12" height="24" fill="#00a3dd" />
+                <!-- Yaz ⵣ stylisé centré -->
+                <text x="18" y="17" text-anchor="middle" font-size="15" font-family="serif" font-weight="bold"
+                  fill="#ffffff" stroke="#00000033" stroke-width="0.3">ⵣ</text>
+              </svg>
+            <span class="lang-name">Tamazight</span>
+            <div class="lang-dots"><span class="dot filled"></span><span class="dot filled"></span><span
+                class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div>
+            <span class="lang-level">Courant</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label fade-up">Contact</div>
+      <h2 class="section-title centered fade-up">Travaillons <em>ensemble</em></h2>
+      <p class="contact-intro fade-up">Disponible pour des opportunités d'enseignement et de soutien scolaire à Agadir
+        et environs.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div>
+              <p class="info-label">Localisation</p>
+              <p class="info-value">Agadir, Maroc</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <polyline points="2,4 12,13 22,4" />
+              </svg>
+            </div>
+            <div>
+              <p class="info-label">Email</p>
+              <a href="mailto:boukindhanane78@gmail.com" class="info-value link">boukindhanane78@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.76a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div>
+              <p class="info-label">Téléphone</p>
+              <a href="tel:+212681198844" class="info-value link">+212 6 81 19 88 44</a>
+            </div>
+          </div>
+          <div class="contact-quote">
+            <p>"L'éducation est l'arme la plus puissante pour changer le monde."</p>
+            <span>— Nelson Mandela</span>
+          </div>
+        </div>
+
+        <form class="contact-form fade-up delay-1" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Prénom &amp; Nom</label>
+              <input type="text" placeholder="Votre nom complet" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="votre@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Sujet</label>
+            <input type="text" placeholder="Objet de votre message" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Envoyer le message
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            Message envoyé avec succès ! Je vous répondrai très bientôt.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">Boukind <em>Hanane</em></span>
+        <p class="footer-copy">© 2025 — Enseignante Primaire · Agadir, Maroc</p>
+        <a href="#hero" class="footer-top">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5" />
+            <polyline points="5 12 12 5 19 12" />
+          </svg>
+          Haut
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
